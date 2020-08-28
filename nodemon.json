@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MONGO_USER": "mendoza12",
+    "MONGO_PASSWORD": "22StEP32izJkYwfM",
+    "MONGO_DB": "classroom"
+  }
+}
