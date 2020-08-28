@@ -107,7 +107,7 @@ app.use(
             return User.findOne({ email: args.userInput.email })
             .then(user => {
                 if (user) {
-                    throw new Error('User exists already.');
+                    throw new Error('User exists already .');
                 }
                 return bcrypt.hash(args.userInput.password, 12);
             })
